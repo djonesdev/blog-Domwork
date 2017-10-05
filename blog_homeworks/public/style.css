@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+	background-color: #0000FF
+}
+
+button {
+	text-decoration: inherit;
+}
+
+hr {
+	width: 70%;
+}
+
+h5 {
+	text-decoration: none;
+	color: white;
+}
+
+.text {
+	color: white;
+}
+
+#allPost {
+	font-size: 2.5em;
+}
+
+#title {
+	font-size: 1.8em;
+}
+
+#name {
+	font-size: 1.3em;
+}
+
+#body {
+	font-size: 1.2em;
+}
+
+div {
+	color: white;
+}

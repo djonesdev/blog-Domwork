@@ -1,0 +1,12 @@
+<br>
+
+<p id="title" class="text"><%= post.title %></p>
+<hr>
+<p id="name" class="text">Author: <%= post.name %></p>
+<hr>
+<p id="postBody" class="text"> <%= post.body %></p>
+
+<h5><%= link_to "Show Page", post if action_name == "index" %></h5>
+<h5><%= link_to "Edit Page", edit_post_path(post) %></h5>
+<hr>
+<br>

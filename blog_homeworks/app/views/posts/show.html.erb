@@ -1,0 +1,16 @@
+<h1>Post Show Page</h1>
+
+  <%= render @post %>
+  <br><br>
+  <%= link_to "New Comment", new_post_comment_path(@post) %>
+
+  <h3>Comments on this Post: </h3>
+
+  <%= render @post.comments %>
+
+<br>
+
+<div><%= link_to "Edit", edit_post_path(@post) %> |</div>
+<div><%= link_to "Back", posts_path %> |</div>
+
+<div><%= link_to "Destroy", @post, method: :delete, data: { confirm: "Are you sure?" } %></div>
